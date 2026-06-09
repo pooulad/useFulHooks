@@ -1,5 +1,6 @@
-import ScrollToTargetExample from "./useScrollToTargetSection/example";
-import OutsideElementDetectorExample from "./useOutsideElementDetector/example";
+import ScrollToTargetExample from "./use-scroll-to-target-section/example";
+import OutsideElementDetectorExample from "./use-outside-element-detector/example";
+import DebounceExample from "./use-debounce/example";
 
 export const hooksList = [
     {
@@ -12,5 +13,11 @@ export const hooksList = [
         description:
             "Detect clicks outside one or multiple referenced elements",
         Example: OutsideElementDetectorExample,
+    },
+    {
+        name: "useDebounce",
+        description:
+            "Delay updating a value until after a specified timeout",
+        Example: DebounceExample,
     },
 ];

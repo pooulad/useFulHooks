@@ -1,5 +1,5 @@
 import type { CSSProperties } from "react";
-import useScrollToTargetSection from "./useScrollToTargetSection";
+import useScrollToTargetSection from "./use-scroll-to-target-section";
 
 export default function Example() {
   const { handleScrollToTargetSection } = useScrollToTargetSection();
