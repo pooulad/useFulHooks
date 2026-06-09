@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { hooksList } from "./hooks";
+import Logo from "./assets/images/logo.png"
 import "./App.css"
 
 function Home() {
@@ -17,7 +18,8 @@ function Home() {
         padding: "20px",
       }}
     >
-      <h1>useFulHooks🪝</h1>
+      <img style={{ width: "100px", height: "100px" }} src={Logo} alt="logo" />
+      <h1>useFulHooks</h1>
       <p>
         <strong>useFulHooks</strong> is an open source project to collect useful
         hooks in React TypeScript projects.
@@ -80,7 +82,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-
         {hooksList.map((hook) => (
           <Route
             key={hook.name}

@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { useOutsideElementDetector } from "./useOutsideElementDetector"
+import { useOutsideElementDetector } from "./use-outside-element-detector"
 
 export default function OutsideElementDetectorExample() {
     const boxAref = useRef<HTMLDivElement>(null!);
