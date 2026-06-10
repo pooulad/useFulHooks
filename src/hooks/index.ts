@@ -1,6 +1,7 @@
 import ScrollToTargetExample from "./use-scroll-to-target-section/example";
 import OutsideElementDetectorExample from "./use-outside-element-detector/example";
 import DebounceExample from "./use-debounce/example";
+import CopyToClipboard from "./use-copy-to-clipboard/example";
 
 export const hooksList = [
     {
@@ -19,5 +20,10 @@ export const hooksList = [
         description:
             "Delay updating a value until after a specified timeout",
         Example: DebounceExample,
+    },
+    {
+        name: "useCopyToClipboard",
+        description: "Copy text to the clipboard with success and error callbacks",
+        Example: CopyToClipboard,
     },
 ];
